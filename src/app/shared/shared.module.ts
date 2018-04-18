@@ -8,6 +8,16 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     CommonModule
   ],
-  declarations: [Error404Component, NavComponent, FooterComponent]
+  declarations: [
+    Error404Component,
+    NavComponent,
+    FooterComponent
+  ],
+  providers: [],
+  exports: [
+    Error404Component,
+    NavComponent,
+    FooterComponent
+  ]
 })
 export class SharedModule { }

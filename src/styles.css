@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Default Style */
+:root {
+    --colorPrimary: #fcd734;
+    --colorPrimaryLight: #ffff6b;
+    --colorPrimaryDark: #c5a600;
+    --textColorPrimary: #000000;
+    --textColorWhite: #ffffff;
+    --textColorDark: #404040;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout Style */
