@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* Import Style */
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
 /* Default Style */
 :root {
     --colorPrimary: #fcd734;
@@ -8,6 +12,9 @@
     --textColorPrimary: #000000;
     --textColorWhite: #ffffff;
     --textColorDark: #404040;
+
+    --fontTitle: 'Orbitron', sans-serif;
+    --fontPrimary: 'Noto Sans KR', sans-serif;
 }
 
 body {
@@ -15,4 +22,16 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: var(--textColorPrimary);
+}
+
 /* Layout Style */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
