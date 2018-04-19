@@ -9,12 +9,17 @@
     --colorPrimary: #fcd734;
     --colorPrimaryLight: #ffff6b;
     --colorPrimaryDark: #c5a600;
+    --colorNavbarDark: #24292e;
     --textColorPrimary: #000000;
     --textColorWhite: #ffffff;
     --textColorDark: #404040;
+    --textColorNavbar: rgba(255,255,255,0.75);
 
     --fontTitle: 'Orbitron', sans-serif;
     --fontPrimary: 'Noto Sans KR', sans-serif;
+
+    /* z-index */
+    --zIndex-navbar: 100;
 }
 
 body {
@@ -29,7 +34,8 @@ a {
 
 /* Layout Style */
 .container {
-    width: 100%;
+    width: 80%;
+    height: inherit;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
