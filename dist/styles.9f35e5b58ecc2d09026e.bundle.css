@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron:700");@import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");@import url("https://fonts.googleapis.com/css?family=Titillium+Web");@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/* You can add global styles to this file, and also import other style files */
+/* 
+    ※Rule
+    PC Mobile 기준 >> @media (min-width: 992px)
+    
+ */
+/* Import Style */
+/* Default Style */:root{--colorPrimary:#fcd734;--colorPrimaryLight:#ffff6b;--colorPrimaryDark:#c5a600;--colorNavbarDark:#24292e;--textColorPrimary:#000;--textColorWhite:#fff;--textColorDark:#404040;--textColorNavbar:hsla(0,0%,100%,.75);--fontPrimary:"Noto Sans KR",sans-serif;--fontTitle:"Orbitron",sans-serif;--fontSubject:"Titillium Web",sans-serif;--fontNanumGothic:"Nanum Gothic",sans-serif;
+
+    /* z-index */--zIndex-navbar:100}body{margin:0;padding:0}a{text-decoration:none;color:var(--textColorPrimary)}
+/* Layout Style */.container{width:992px;height:inherit;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
