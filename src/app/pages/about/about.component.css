@@ -1,0 +1,62 @@
+.section-title {
+    margin: 2px 0;
+    width: auto;
+    height: 42px;
+    font-size: 24px;
+    font-family: var(--fontPrimary);
+    font-weight: 500;
+    color: var(--textColorDark);
+    border-left: 6px solid var(--colorPrimary);
+}
+
+.section-title > div {
+    padding: 0 6px;
+}
+
+.bigger {
+    height: 56px;
+    font-size: 36px;
+}
+
+.section-contents {
+    padding: 0 12px;
+    font-size: 16px;
+    font-family: var(--fontPrimary);
+    font-weight: 500;
+    color: var(--textColorDark);
+}
+
+.grid-two-col-section {
+    display: grid;
+    grid-template-columns: auto 320px;
+}
+
+.profile-grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: 100px auto;
+    grid-gap: 10px;
+}
+
+.awards-grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: 100px 100px auto;
+    
+}
+
+.skill-list {
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skill-list > li {
+    margin: 4px;
+    display: inline-block;
+}
+
+.personality > div {
+    margin-bottom: 10px;
+    line-height: 2;
+}
