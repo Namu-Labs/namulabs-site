@@ -19,7 +19,7 @@ section.about-my-photo {
 }
 
 .section-title > div {
-    padding: 0 6px;
+    padding: 0 12px;
 }
 
 .bigger {
@@ -28,7 +28,7 @@ section.about-my-photo {
 }
 
 .section-contents {
-    padding: 0 12px;
+    padding: 0 18px;
     font-size: 16px;
     font-family: var(--fontPrimary);
     font-weight: 500;
@@ -109,4 +109,20 @@ section.about-my-photo {
 .personality > div {
     margin-bottom: 10px;
     line-height: 2;
+}
+
+.btn-message-me {
+    display: block;
+    margin: 0 auto;
+    padding: 6px;
+    width: 200px;
+    text-align: center;
+    font-family: var(--fontNanumGothic);
+    color: #a58b00;
+    background-color: var(--colorPrimary);
+    border-radius: 4px;
+}
+
+.btn-message-me > i {
+    font-size: 30px;
 }
