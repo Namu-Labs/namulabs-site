@@ -4,9 +4,13 @@ import { Error404Component } from './error404/error404.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { AppRoutingModule } from '../app-routing.module';
+
+
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   declarations: [
     Error404Component,
