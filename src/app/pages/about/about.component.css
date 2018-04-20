@@ -1,5 +1,14 @@
+section.division {
+    margin-bottom: 120px;
+}
+
+section.about-my-photo {
+    margin-top: 120px;
+}
+
 .section-title {
-    margin: 2px 0;
+    margin-top: 2px;
+    margin-bottom: 10px;
     width: auto;
     height: 42px;
     font-size: 24px;
@@ -41,8 +50,49 @@
 .awards-grid-container {
     display: grid;
     width: auto;
-    grid-template-columns: 100px 100px auto;
-    
+    grid-template-columns: 120px 100px auto;
+    grid-row-gap: 16px;
+}
+
+.awards-grid-imagebox {
+    display: grid;
+    margin: 30px 0;
+    width: auto;
+    height: 200px;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.cerificate-grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: 200px 200px 200px;
+    grid-row-gap: 16px;
+}
+
+.self-intro {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.self-intro > img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.self-intro > div {
+    text-align: center;
+}
+
+.self-intro > #hello {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--colorPrimary);
+}
+
+.self-intro > #intro {
+    padding-bottom: 40px;
 }
 
 .skill-list {
