@@ -52,3 +52,8 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
+
+.empty-area-navbar {
+    height: 120px;
+    background-color: var(--colorNavbarDark);
+}
