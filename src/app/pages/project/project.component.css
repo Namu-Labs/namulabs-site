@@ -1,5 +1,5 @@
 .project-filter {
-    padding: 40px 0px;
+    padding: 40px 0px 20px 0px;
     width: 100%;
 }
 
@@ -23,7 +23,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    column-gap: 50px;
 }
 
 .project-filter > ul > li {
