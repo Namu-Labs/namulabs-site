@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 /* 
     ※Rule
-    PC Mobile 기준 >> @media (min-width: 992px)
+    PC Mobile 기준 >> @media (min-width: 1300px)
     
  */
 
@@ -18,7 +18,7 @@
     --colorPrimary: #fcd734;
     --colorPrimaryLight: #ffff6b;
     --colorPrimaryDark: #c5a600;
-    --colorNavbarDark: #24292e;
+    --colorBgDark: #24292e;
     --textColorPrimary: #000000;
     --textColorWhite: #ffffff;
     --textColorDark: #404040;
@@ -45,7 +45,7 @@ a {
 
 /* Layout Style */
 .container {
-    width: 992px;
+    width: 1300px;
     height: inherit;
     padding-right: 15px;
     padding-left: 15px;

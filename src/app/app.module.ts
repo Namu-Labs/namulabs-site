@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
-import { PagesModule } from './pages/pages.module';
+import { ViewsModule } from './views/views.module';
 import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
@@ -15,7 +15,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     CoreModule,
-    PagesModule,
+    ViewsModule,
     SharedModule,
     AppRoutingModule
   ],

@@ -1,0 +1,128 @@
+section.division {
+    margin-bottom: 120px;
+}
+
+section.about-my-photo {
+    padding-top: 120px;
+}
+
+.section-title {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 42px;
+    font-size: 24px;
+    font-family: var(--fontPrimary);
+    font-weight: 500;
+    color: var(--textColorDark);
+    border-left: 6px solid var(--colorPrimary);
+}
+
+.section-title > div {
+    padding: 0 12px;
+}
+
+.bigger {
+    height: 56px;
+    font-size: 36px;
+}
+
+.section-contents {
+    padding: 0 18px;
+    font-size: 16px;
+    font-family: var(--fontPrimary);
+    font-weight: 500;
+    color: var(--textColorDark);
+}
+
+.grid-two-col-section {
+    display: grid;
+    grid-template-columns: auto 320px;
+}
+
+.profile-grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: 100px auto;
+    grid-gap: 10px;
+}
+
+.awards-grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: 120px 100px auto;
+    grid-row-gap: 16px;
+}
+
+.awards-grid-imagebox {
+    display: grid;
+    margin: 30px 0;
+    width: auto;
+    height: 200px;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.cerificate-grid-container {
+    display: grid;
+    width: auto;
+    grid-template-columns: 200px 200px 200px;
+    grid-row-gap: 16px;
+}
+
+.self-intro {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.self-intro > img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.self-intro > div {
+    text-align: center;
+}
+
+.self-intro > #hello {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--colorPrimary);
+}
+
+.self-intro > #intro {
+    padding-bottom: 40px;
+}
+
+.skill-list {
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skill-list > li {
+    margin: 4px;
+    display: inline-block;
+}
+
+.personality > div {
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.btn-message-me {
+    display: block;
+    margin: 0 auto;
+    padding: 6px;
+    width: 200px;
+    text-align: center;
+    font-family: var(--fontNanumGothic);
+    color: #a58b00;
+    background-color: var(--colorPrimary);
+    border-radius: 4px;
+}
+
+.btn-message-me > i {
+    font-size: 30px;
+}
