@@ -32,9 +32,6 @@
         </div>
       </div>
     </article>
-    <article>
-      <div id="photo_area_temp" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; border: 1px dotted gray; color: gray;">Photo</div>
-    </article>
   </section>
 
   <section class="about-skill division">
@@ -42,33 +39,27 @@
       <div>SKILL (Language &amp; Tools)</div>
     </div>
     <div class="section-contents">
-      <div>C#, C++, JAVA, HTML5, CSS, Javascript, JQuery, MySQL, Android, JSP, ASP.NET Core, Angular 4</div>
       <div>
         <ul class="skill-list">
-          <li><img src="assets/images/ic_skill_csharp.png" /></li>
-          <li><img src="assets/images/ic_skill_cpp.png" /></li>
-          <li><img src="assets/images/ic_skill_java.png" /></li>
-          <li><img src="assets/images/ic_skill_htmlcss.png" /></li>
-          <li><img src="assets/images/ic_skill_js.png" /></li>
-          <li><img src="assets/images/ic_skill_jquery.png" /></li>
-          <li><img src="assets/images/ic_skill_mysql.png" /></li>
-          <li><img src="assets/images/ic_skill_android.png" /></li>
-          <li><img src="assets/images/ic_skill_jsp.png" /></li>
+          <li *ngFor="let skill of skillTable">
+            <img src="{{ skill.img }}" />
+            <div class="skillTable">
+              <div>{{ skill.title }}</div>
+              <div>
+                <span>활용도</span>
+                <span>{{ skill.star }}</span>
+              </div>
+              <div>
+                <span>사용 프로젝트 수</span>
+                <span>{{ skill.countProject }}</span>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
   </section>
 </section>
-
-<!-- 
-<section class="container">
-  <section class="about-slogan">
-    <div class="section-title bigger">
-      <div>즐거운 개발자가 즐거운 소프트웨어를 만드는법</div>
-    </div>
-  </section>
-</section> 
--->
 
 <section class="container">
   <section class="about-personality division">

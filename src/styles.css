@@ -36,6 +36,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fdfdfd;
 }
 
 a {
@@ -45,7 +46,7 @@ a {
 
 /* Layout Style */
 .container {
-    width: 1300px;
+    width: 992px;
     height: inherit;
     padding-right: 15px;
     padding-left: 15px;

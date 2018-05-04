@@ -5,6 +5,12 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule
   ],
-  declarations: []
+  declarations: [
+    
+  ],
+  providers: [],
+  exports: [
+    
+  ]
 })
 export class CoreModule { }
